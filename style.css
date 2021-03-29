@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+
+/* Base reset */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    background-color: white;
+    background-image: url(images/background.jpeg);
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+       margin-bottom: 0;
+       border-radius: 0;
+       font-weight: bold;
+       font-size: 2rem;
+        }
+
+#navbar {
+    display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(27, 25, 25);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  padding-left: 4rem;
+}
+
+
+
+#welcome-section {
+    background-image: linear-gradient(to right, rgb(22, 223, 223), rgb(243, 28, 28));
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 35rem;
+    color: white;
+}
+#welcome-text {
+    font-weight: 700;
+    text-align: center;
+}
+#subtext {
+    color: rgb(228, 228, 58);
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+
+#projects {
+    background-color: rgb(50, 194, 179);   
+    margin-top: 10rem;
+}
+
+#project-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 25rem 5rem 25rem;
+    min-height: 100%;
+   justify-content: space-between;
+   text-align: center;
+   padding-bottom: 10rem;
+}
+
+#project-grid > div {
+    display: flex; 
+    flex-basis: calc(50% - 10rem);  
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+#project-grid > div > img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#project-grid > div:hover {
+    opacity: 0.7;  
+}
+
+.project-tile {
+    margin: 2.5rem;
+}
+
+#projects-text {
+    color: white;
+    background-color: #02968a;
+    font-weight: 700;
+    text-align: center;
+    padding: 7rem 2rem;
+    
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 750;
+    padding: 1rem;
+}
+
+.thumbnails {
+    width: 46rem;
+    height: 30rem;
+    box-shadow: 10px 10px 5px #02968a; 
+}
+
+#about {
+    background-color: rgb(165, 72, 241);
+    height: 55rem;
+    margin-top: 10rem;
+}
+
+#about-text {
+    color: white;
+    background-color: #680980;
+    font-weight: 700;
+    text-align: center;
+    padding: 7rem 2rem;
+}
+
+#about-par {
+    font-size: 2.4rem;
+    text-align: left;
+    margin: 10rem 7rem 6rem 7rem;
+}
+
+#contact {
+    background-color: rgb(236, 39, 115);
+    text-align: center;
+    height: 55rem;
+    margin-top: 10rem;
+}
+
+#contact > h2 {
+    background-color: rgb(187, 4, 80);
+    height: 20rem;
+    text-align: center;
+    padding-top: 8.5rem;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+.social-links ul {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 7rem;
+    padding: 3rem 3rem;
+    
+}
+
+.social-links > ul > li > a {
+    color: white;
+    text-align: center;
+    margin: 3rem;
+    margin-top: 1rem;
+}
+
+.social-links > ul > li > a:hover {
+    opacity: 0.5;
+}
+
+#profile-link {
+  padding: 5rem;
+  font-size: 5rem;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#fcc {
+  padding: 5rem;
+  font-size: 5rem;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#fb {
+  padding: 5rem;
+  font-size: 5rem;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#ig {
+  padding: 5rem;
+  font-size: 5rem;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+footer {
+    font-size: 20px;
+}
+
+

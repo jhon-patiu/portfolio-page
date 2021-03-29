@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Portfolio Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e62da816d6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+
+    
+
+<!-- COLLAPSING NAV BAR START -->
+    <nav id="navbar" class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    
+                    <li class="active"><a href="#"><i class="fas fa-chess-knight"></i>-jhon-patiu</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- COLLAPSING NAV BAR END -->
+
+<!-- WELCOME SECTION START -->
+    <section id="welcome-section" class="jumbotron">
+        <div class="container text-center">
+            <h1 id="welcome-text">Hello, I'm Jhon</h1>
+            <h3 id="subtext">a super-cool web developer</h3>
+        </div>
+    </section>
+<!-- WELCOME SECTION END -->
+
+<!-- PROJECTS SECTION START -->
+    <section id="projects">
+        <div>
+        <h2 id="projects-text">These are some of my projects</h2><br>
+        </div>
+
+        <div id="project-grid">
+
+            <div class="project-tile">
+                <h3>Survey Form</h3>
+                <a id="survey_form"        
+                   href="https://jhon-patiu.github.io/survey-form/" 
+                   target="_blank">
+                <img class="thumbnails" src="images/survey_form_thumbnail.png"></a>
+            </div>
+
+            <div class="project-tile">
+                <h3>Landing Page</h3>
+                <a id="landing_page"                  
+                   href="https://jhon-patiu.github.io/landing-page/" 
+                   target="_blank">
+                <img class="thumbnails" src="images/landing_page_thumbnail.png"></a>
+            </div>
+
+            <div class="project-tile">
+                <h3>Tribute Page</h3>
+                <a id="tribute_page" 
+                   href="https://jhon-patiu.github.io/first-tribute-page/" 
+                   target="_blank">
+                <img class="thumbnails" src="images/tribute_page_thumbnail.png"></a>
+            </div>
+
+            <div class="project-tile">
+                <h3>Documentation Page</h3>
+                <a id="documentation_page"
+                   href="https://github.com/jhon-patiu/documentation-page" 
+                   target="_blank">
+                <img class="thumbnails" src="images/documentation_page_thumbnail.png"></a>
+            </div>
+        </div>
+    </section>
+<!-- PROJECTS SECTION END -->
+
+<!-- ABOUT SECTION START -->
+            <div id="about">
+                <h2 id="about-text">About</h2>
+                <br>
+                <p id="about-par">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum dolor sit amet eros dapibus vehicula. Ut
+                ut ligula nunc. Praesent auctor diam in eleifend placerat. Vestibulum lorem libero, euismod id aliquet elementum,
+                suscipit nec urna. Nunc accumsan elit vel eros scelerisque porta. Morbi sit amet scelerisque mauris. Integer ut finibus
+                enim. Duis a consequat libero. Nulla eu urna turpis. Nunc vitae metus velit.</p>
+                </div>
+<!-- ABOUT SECTION END-->
+
+<!-- CONTACT SECTION START -->
+    <section id="contact">
+        <h2>Let's work together...</h2>
+        
+        <div class="social-links">
+            <ul>
+                <li><a id="profile-link" href="https://github.com/jhon-patiu" class="fa fa-github" target="_blank"></a></li>
+                <li><a id="fcc" href="https://www.freecodecamp.org/jhonpatiu" class="fa fa-free-code-camp" target="_blank"></a></li>
+                <li><a id="fb" href="https://www.facebook.com/PatiuJhon/" class="fa fa-facebook" target="_blank"></a></li>
+                <li><a id="ig" href="https://instagram.com/nohjpatiu" class="fa fa-instagram" target="_blank"></a></li>
+            </ul>
+        </div>
+    </section>
+<!-- CONTACT SECTION END -->
+
+    <footer class="container-fluid text-center">
+        <p>This is a mock portfolio page. All the projects are non-profitable and made only as pure samples and to pass FreeCodeCamps' HTML and CSS Course Project Tests</p>
+    </footer>
+
+</body>
+
+</html>
