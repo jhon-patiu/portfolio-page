@@ -30,6 +30,12 @@ body {
     color: white;
     background-color: white;
     background-image: url(images/background.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -231,5 +237,4 @@ ul {
 footer {
     font-size: 20px;
 }
-
 
